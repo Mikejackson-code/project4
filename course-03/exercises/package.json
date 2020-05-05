@@ -1,0 +1,32 @@
+{
+  "name": "project4a",
+  "version": "1.0.0",
+  "description": "the first part of the build",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^5.21.5",
+    "sequelize-typescript": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node .",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/server.ts",
+    "prod": "tsc && node ./www/server.js",
+    "clean": "rm -rf www/ || true",
+    "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikejackson-code/project4.git"
+  },
+  "author": "Mike Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikejackson-code/project4/issues"
+  },
+  "homepage": "https://github.com/Mikejackson-code/project4#readme"
+}

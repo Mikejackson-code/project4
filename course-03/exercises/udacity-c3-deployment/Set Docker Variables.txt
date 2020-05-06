@@ -1,3 +1,0 @@
-Set Docker Variables
-
-docker run --rm --publish 8080:8080 -v $HOME/.aws:/root/.aws --env POSTGRESS_HOST="arn:aws:rds:us-east-2:091151377189:db:jacksonudagram" --env POSTGRESS_USERNAME="jacksonudagram" --env POSTGRESS_PASSWORD="jacksonudagram" --env POSTGRESS_DB="postgres" --env AWS_REGION="us-east-2" --env AWS_PROFILE=default --env AWS_BUCKET="udagramdemo" --env JWT_SECRET="helloworld" --name p4feed mikejacksoncode/udacity-restapi-feed

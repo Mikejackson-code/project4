@@ -1,5 +1,7 @@
 import AWS = require('aws-sdk');
 import { config } from './config/config';
+const newLocal = require('dotenv-defaults').configure();
+
 
 const c = config.dev;
 

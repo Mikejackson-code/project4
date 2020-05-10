@@ -12,7 +12,7 @@ spec:
         service: backend-user
     spec:
       containers:
-      - image: mikejacksoncode/udacity-restapi-user
+      - image: jacksonmike/udacity-restapi-user
         name: backend-user
         imagePullPolicy: Always  
         resources:

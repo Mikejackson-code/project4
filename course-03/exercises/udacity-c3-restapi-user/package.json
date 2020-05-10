@@ -1,7 +1,7 @@
 {
   "name": "udacity-c3-restapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the user portion of the udagram app",
   "main": "src/server.js",
   "scripts": {
     "start": "node .",
@@ -41,5 +41,13 @@
     "ts-node-dev": "^1.0.0-pre.44",
     "tslint": "^5.20.1",
     "typescript": "^3.8.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikejackson-code/project4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mikejackson-code/project4/issues"
+  },
+  "homepage": "https://github.com/Mikejackson-code/project4#readme"
 }

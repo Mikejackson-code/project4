@@ -70,7 +70,7 @@ spec:
             secretKeyRef:
               key: POSTGRESS_USERNAME
               name: env-secret
-        image: mikejacksoncode/udacity-restapi-user:qa
+        image: jacksonmike/udacity-restapi-user:qa
         imagePullPolicy: Always
         name: backend-user-qa
         resources:

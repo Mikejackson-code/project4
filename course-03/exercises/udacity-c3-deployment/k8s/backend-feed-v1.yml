@@ -70,7 +70,7 @@ spec:
             secretKeyRef:
               key: POSTGRESS_USERNAME
               name: env-secret
-        image: mikejacksoncode/udacity-restapi-feed
+        image: jacksonmike/udacity-restapi-feed
         imagePullPolicy: Always
         name: backend-feed
         resources:

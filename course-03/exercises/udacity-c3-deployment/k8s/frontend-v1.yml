@@ -70,7 +70,7 @@ spec:
             secretKeyRef:
               key: POSTGRESS_USERNAME
               name: env-secret
-        image: mikejacksoncode/udacity-frontend
+        image: jacksonmike/udacity-frontend
         imagePullPolicy: Always
         name: frontend
         resources:

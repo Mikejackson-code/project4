@@ -12,7 +12,7 @@ spec:
         service: backend-user-qa
     spec:
       containers:
-      - image: mikejacksoncode/udacity-restapi-user:qa
+      - image: jacksonmike/udacity-restapi-user:qa
         name: backend-user-qa
         imagePullPolicy: Always  
         resources:

@@ -12,7 +12,7 @@ spec:
         service: frontend
     spec:
       containers:
-      - image: mikejacksoncode/udacity-frontend
+      - image: jacksonmike/udacity-frontend
         name: frontend
         imagePullPolicy: Always  
         resources:

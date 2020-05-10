@@ -24,7 +24,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: mikejacksoncode/reverseproxy:latest
+      - image: jacksonmike/reverseproxy:latest
         imagePullPolicy: Always
         name: reverseproxy
         ports:

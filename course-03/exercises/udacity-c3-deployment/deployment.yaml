@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: jackosnudagram
+        app: jacksonudagram
     spec:
       containers:
       - name: jacksonudagram

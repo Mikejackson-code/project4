@@ -6,4 +6,4 @@ export AWS_REGION=us-east-2;
 export AWS_PROFILE=default;
 export AWS_BUCKET=jacksonudagram;
 export JWT_SECRET=helloworld;
-export URL=http://Localhost:8100
+export URL=http://Localhost

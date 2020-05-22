@@ -1,6 +1,6 @@
 version: "3"
 services:
- cd reverseproxy:
+  reverseproxy:
       image: mikejacksoncode/reverseproxy
       ports:
           - 8080:8080
@@ -37,6 +37,6 @@ services:
       JWT_SECRET: $JWT_SECRET
       URL: "http://localhost:8100"
   frontend:
-    image: mikejacksoncode/udacity-frontend:local
+    image: mikejacksoncode/udacity-frontend
     ports:
       - "8100:80"

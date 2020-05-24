@@ -12,9 +12,9 @@ import { AuthRegisterComponent } from '../auth-register/auth-register.component'
   styleUrls: ['./auth-menu-button.component.scss'],
 })
 export class AuthMenuButtonComponent implements OnInit {
-
+//CHANGED  auth to public service
   constructor(
-    private auth: AuthService,
+    public auth: AuthService,
     public modalController: ModalController
     ) {}
 

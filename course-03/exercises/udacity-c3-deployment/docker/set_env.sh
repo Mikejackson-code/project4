@@ -1,0 +1,9 @@
+export POSTGRESS_USERNAME='jacksonudagram'
+export POSTGRESS_PASSWORD='jacksonudagram'
+export POSTGRESS_HOST='jacksonudagram.cm4xlcca34ef.us-east-2.rds.amazonaws.com'
+export POSTGRESS_DB='jacksonudagram'
+export AWS_REGION='us-east-2'
+export AWS_PROFILE=default
+export AWS_BUCKET='jacksonudagram'
+export JWT_SECRET='helloworld'
+export URL=http://localhost:8100

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Udagram Image Filtering Microservice
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
@@ -51,3 +52,7 @@ Ionic CLI can build the frontend into static HTML/CSS/JavaScript files. These fi
 ionic build
 ```
 ***
+=======
+# cloud-developer
+content for Udacity's cloud developer nanodegree
+>>>>>>> 06490e8902480310add6a79df69984305fe7081b

@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 language: node_js
 node_js: 12
+=======
+language: minimal
+>>>>>>> 06490e8902480310add6a79df69984305fe7081b
 
 services: docker
 
@@ -15,6 +19,7 @@ before_install:
   - curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
   - chmod +x ./kubectl
   - sudo mv ./kubectl /usr/local/bin/kubectl
+<<<<<<< HEAD
   - chmod +x ./udacity-c3-deployment/docker/checkbuild.sh
 
 
@@ -25,3 +30,13 @@ script:
 #  echo "done"
   - ./udacity-c3-deployment/docker/checkbuild.sh
     
+=======
+
+
+
+install:
+  - docker-compose -f course-03/exercises/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
+
+
+
+>>>>>>> 06490e8902480310add6a79df69984305fe7081b

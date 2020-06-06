@@ -1,5 +1,4 @@
-language: node_js
-node_js: 12
+language: minimal
 
 services: docker
 
@@ -19,9 +18,9 @@ before_install:
 
 
 
-#install:
-#  - docker-compose -f course-03/exercises/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
-script:
+install:
+  - docker-compose -f course-03/exercises/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
+#script:
 #  echo "done"
-  - ./udacity-c3-deployment/docker/checkbuild.sh
+#  - ./udacity-c3-deployment/docker/checkbuild.sh
     

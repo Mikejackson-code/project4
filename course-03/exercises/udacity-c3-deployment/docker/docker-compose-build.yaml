@@ -7,12 +7,12 @@ services:
   backend_user:
     build:
       context: ../../udacity-c3-restapi-user
-    image: mikejacksoncode/udacity-restapi-user
+    image: mikejackson-code/udacity-restapi-user
   backend_feed:
     build:
       context: ../../udacity-c3-restapi-feed  
-    image: mikejacksoncode/udacity-restapi-feed
+    image: mikejackson-code/udacity-restapi-feed
   frontend:
     build:
       context: ../../udacity-c3-frontend  
-    image: mikejacksoncode/udacity-frontend
+    image: mikejackson-code/udacity-frontend

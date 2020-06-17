@@ -1,11 +1,11 @@
-apiVersion: extensions/v1beta1
+apiVersion: v1
 kind: Deployment
 metadata:
   labels:
     service: backend-feed
   name: backend-feed
 spec:
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:

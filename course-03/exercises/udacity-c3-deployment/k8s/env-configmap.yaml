@@ -7,7 +7,7 @@ data:
   JWT_SECRET: jacksonudagram
   POSTGRESS_DB: jacksonudagram
   POSTGRESS_HOST: jacksonudagram.cm4xlcca34ef.us-east-2.rds.amazonaws.com
-  URL: http://localhost:5432
+  URL: http://http://a091cedaacc204fe2955480bd8be5db1- 996221755.us-east-2.elb.amazonaws.com:8100
 metadata:
   name: env-config
   

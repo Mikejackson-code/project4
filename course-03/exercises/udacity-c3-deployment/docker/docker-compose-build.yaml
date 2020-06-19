@@ -15,8 +15,4 @@ services:
   frontend:
     build:
       context: ../../udacity-c3-frontend  
-    image: mikejacksoncode/udacity-frontend
-  webapp:
-    build: .
-    environment:
-      - DEBUG=1  
+    image: mikejacksoncode/udacity-frontend  
